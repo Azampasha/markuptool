@@ -9,6 +9,8 @@ public class Lab40 {
 
 	public static void main(String[] args) {
 	// comment test comment123
+		
+		// banglore    
 	ApplicationContext ctx=new ClassPathXmlApplicationContext("jlcindia.xml");
 		TestBean tb=(TestBean)ctx.getBean("testBean");
 		tb.showEnglish();
