@@ -7,7 +7,9 @@ public class TestBean {
 	
 	@Autowired
 	ApplicationContext ctx=null;
-// commentntntntntn
+// commentntntntntng
+	
+	//aaaaaaa
 	void showEnglish(){
 		
 		String m1=ctx.getMessage("username.required",null,null);
