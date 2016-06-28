@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Lab40 {
 
 	public static void main(String[] args) {
-	// developer2 comment
+	// comment test comment123
 	ApplicationContext ctx=new ClassPathXmlApplicationContext("jlcindia.xml");
 		TestBean tb=(TestBean)ctx.getBean("testBean");
 		tb.showEnglish();
